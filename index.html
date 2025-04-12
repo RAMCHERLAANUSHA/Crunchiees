@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUNCHIEES</title>
+    <link rel="stylesheet" href="./crunchiees.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="./crunchiees.js" defer></script>
+  </head>
+
+  <body style="background-color: whitesmoke">
+    <!-- =======================================================nav bar============================================================================ -->
+    <nav class="navbar navbar-expand-lg d-flex flex-row bg-white fixed-top">
+      <div class="container-fluid justify-content-lg-start">
+        <p class="pcrunchiees">
+          <img
+            class="logo"
+            src="/crunchiees_images/logo.png"
+            alt="Crunchiees Logo"
+          />CRUNCHIEES
+        </p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div>
+        <ul class="navbar-nav collapse navbar-collapse" id="navbarText">
+          <li class="nav-item">
+            <button class="item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselSection"
+                >Home</a
+              >
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#aboutSection">About</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#snackSection">Snacks</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#panipuriSection">Panipuri</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#frankieSection">Frankie</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#maggieSection">Maggie</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#specialSection">Specials</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="item">
+              <a class="nav-link active" href="#contactSection">Contact</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ======================================================home========================================================= -->
+
+    <div class="container-fluid mb-3 p-0 mt-5 pt-3">
+      <div id="carouselSection" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="card">
+            <div class="card-body">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="phome">
+                      <p class="phome1">Our Snacks</p>
+                      <p class="phome2">OMLETE</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mx-0">
+                    <img src="crunchiees_images/image4.jpg" class="qimage" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="phome">
+                      <p class="phome1">Our Chaat</p>
+                      <p class="phome2">PANIPURI</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="crunchiees_images/image2.png" class="qimage" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="phome">
+                      <p class="phome1">Our Frankie</p>
+                      <p class="phome2">CHICKEN ROLL</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="crunchiees_images/image5.png" class="qimage" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="phome">
+                      <p class="phome1">Our Maggie</p>
+                      <p class="phome2">VEG MAGGIE</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="crunchiees_images/image1.png" class="qimage" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="phome">
+                      <p class="phome1">Our Specials</p>
+                      <p class="phome2">TOPPED CRUNCHIEES</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="crunchiees_images/image3.png" class="qimage" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="custom-carousel-indicators">
+          <span
+            data-bs-target="#carouselSection"
+            data-bs-slide-to="0"
+            class="bullet active"
+          ></span>
+          <span
+            data-bs-target="#carouselSection"
+            data-bs-slide-to="1"
+            class="bullet"
+          ></span>
+          <span
+            data-bs-target="#carouselSection"
+            data-bs-slide-to="2"
+            class="bullet"
+          ></span>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselSection"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselSection"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- ============================================about===================================================== -->
+
+    <div class="about" id="aboutSection">
+      <div class="container-fluid mb-3 p-0">
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <h6 class="hcon">About Us</h6>
+              <h3>WHY CHOOSE US?</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <img src="crunchiees_images/about.png" class="abtimg" />
+              </div>
+              <div class="col-md-7">
+                <h2 class="abth2">Best Food</h2>
+                <p class="aboutp">
+                  We are passionate about bringing you the crunchiest, most
+                  flavorful snacks that satisfy your cravings and delight your
+                  taste buds. As a startup in the food industry, our mission is
+                  to redefine snacking with innovative recipes, high-quality
+                  ingredients, and a commitment to excellence. From savory to
+                  sweet, each bite of our snacks promises a burst of joy and
+                  freshness. Whether you're grabbing a quick bite on the go or
+                  sharing moments with loved ones, Crunchiees is here to make
+                  every snack time special. Join us on our journey to create
+                  unforgettable snacking experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===========================================Snacks=========================================================== -->
+
+    <div class="dish" id="snackSection">
+      <div class="container-fluid mb-3 p-0">
+        <div>
+          <h6 class="hcon">Our Menu</h6>
+          <h3>Snacks</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack1.png" class="d-block w-100" />
+                <p class="pmenfood">DOUBLE EGG OMLETE</p>
+                <div class="row">
+                  <p class="mendollor">40/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack2.png" class="d-block w-100" />
+                <p class="pmenfood">MASALA OMLETE</p>
+                <p class="mendollor">30/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack3.png" class="d-block w-100" />
+                <p class="pmenfood">BREAD OMLETE</p>
+                <p class="mendollor">50/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack4.png" class="d-block w-100" />
+                <p class="pmenfood">CHICKEN TOPPED OMLETE</p>
+                <p class="mendollor">60/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack5.png" class="d-block w-100" />
+                <p class="pmenfood">CHICKEN CHEESE OMLETE</p>
+                <p class="mendollor">70/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack6.png" class="d-block w-100" />
+                <p class="pmenfood">FRENCH FRIES</p>
+                <p class="mendollor">50/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack7.png" class="d-block w-100" />
+                <p class="pmenfood">MUSHROOM POPCORN</p>
+                <p class="mendollor">80/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack8.png" class="d-block w-100" />
+                <p class="pmenfood">CHICKEN POPCORN</p>
+                <p class="mendollor">90/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack9.png" class="d-block w-100" />
+                <p class="pmenfood">CHICKEN FINGERS</p>
+                <p class="mendollor">100/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack10.png" class="d-block w-100" />
+                <p class="pmenfood">EGG DEVIL</p>
+                <p class="mendollor">30/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack11.png" class="d-block w-100" />
+                <p class="pmenfood">CRISPY CORN</p>
+                <p class="mendollor">40/-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack12.png" class="d-block w-100" />
+                <p class="pmenfood">MASALA EGG</p>
+                <p class="mendollor">30/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="botdiv" id="like">
+                    <button class="botimgl">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                    <button class="botimgr">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <img src="crunchiees_images/snack13.png" class="d-block w-100" />
+                <p class="pmenfood">PANEER STRIPS</p>
+                <p class="mendollor">90/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================================================Panipuri======================================================= -->
+
+    <div class="dish" id="panipuriSection">
+      <div class="container-fluid mb-3 p-0">
+        <div>
+          <h3>Panipuri</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4 mt-2">
+            <div class="card panipuri">
+              <div class="card-body">
+                <img src="crunchiees_images/panipuri1.png" class="d-block w-100" />
+                <p class="pmenfood">PANI PURI</p>
+                <div class="row">
+                  <p class="mendollor">20/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4  mt-2">
+            <div class="card panipuri">
+              <div class="card-body">
+                <img src="crunchiees_images/panipuri2.png" class="d-block w-100" />
+                <p class="pmenfood">DAHI PURI</p>
+                <div class="row">
+                  <p class="mendollor">35/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4  mt-2">
+            <div class="card panipuri">
+              <div class="card-body">
+                <img src="crunchiees_images/panipuri3.png" class="d-block w-100" />
+                <p class="pmenfood">SEV PURI</p>
+                <div class="row">
+                  <p class="mendollor">35/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 mt-2">
+                <div class="card panipuri">
+                  <div class="card-body">
+                    <img src="crunchiees_images/panipuri4.png" class="d-block w-100" />
+                    <p class="pmenfood">MASALA PURI</p>
+                    <div class="row">
+                      <p class="mendollor">35/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          <div class="col-md-4  mt-2">
+            <div class="card panipuri">
+              <div class="card-body">
+                <img src="crunchiees_images/panipuri5.png" class="d-block w-100" />
+                <p class="pmenfood">CHICKEN PURI</p>
+                <div class="row">
+                  <p class="mendollor">40/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div class="card mt-3 pani ">
+            <div class="card-body">
+              <span class="card-title">PANI FLAVOURS:</span>
+                <span class="flavour">Dhaniya, Pudina, Garlic, Khattamitta, Jeera, Aamchur</span>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- ================================================Frankie=========================================================== -->
+
+    <div class="dish" id="frankieSection">
+        <div class="container-fluid mb-3 p-0">
+          <div>
+            <h3 class="pt-3">Frankie</h3>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-md-4 mt-2">
+              <div class="card">
+                <div class="card-body">
+                  <img src="crunchiees_images/roll1.jpg" class="d-block w-100" />
+                  <p class="pfood">VEG ROLL</p>
+                  <div class="row">
+                    <p class="mendollor">50/-</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="crunchiees_images/roll2.png" class="d-block w-100" />
+                    <p class="pfood">PANEER ROLL</p>
+                    <div class="row">
+                      <p class="mendollor">70/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="crunchiees_images/roll3.png" class="d-block w-100" />
+                    <p class="pfood">EGG ROLL</p>
+                    <div class="row">
+                      <p class="mendollor">60/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            
+              <div class="row">
+
+              <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="crunchiees_images/roll4.png" class="d-block w-100" />
+                    <p class="pfood">CHICKEN ROLL</p>
+                    <div class="row">
+                      <p class="mendollor">80/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="crunchiees_images/roll5.png" class="d-block w-100" />
+                    <p class="pfood">DOUBLE EGG CHICKEN ROLL</p>
+                    <div class="row">
+                      <p class="mendollor">90/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- ======================================================Maggie============================================================= -->
+
+    <div class="dish" id="maggieSection">
+        <div class="container-fluid mb-3 p-0">
+          <div>
+            <h3>Maggie</h3>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-md-3 mt-2">
+              <div class="card panipuri">
+                <div class="card-body">
+                  <img src="crunchiees_images/maggie1.png" class="d-block w-100" />
+                  <p class="pmenfood">VEG MAGGIE</p>
+                  <div class="row">
+                    <p class="mendollor">WET - 39/-</p>
+                    <p class="mendollor">DRY - 49/-</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mt-2">
+                <div class="card panipuri">
+                  <div class="card-body">
+                    <img src="crunchiees_images/maggie2.png" class="d-block w-100" />
+                    <p class="pmenfood">EGG MAGGIE</p>
+                    <div class="row">
+                      <p class="mendollor">WET - 49/-</p>
+                      <p class="mendollor">DRY - 59/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-2">
+                <div class="card panipuri">
+                  <div class="card-body">
+                    <img src="crunchiees_images/maggie3.png" class="d-block w-100" />
+                    <p class="pmenfood">PANEER MAGGIE</p>
+                    <div class="row">
+                      <p class="mendollor">WET - 59/-</p>
+                      <p class="mendollor">DRY - 69/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-2">
+                <div class="card panipuri">
+                  <div class="card-body">
+                    <img src="crunchiees_images/maggie4.png" class="d-block w-100" />
+                    <p class="pmenfood">CHICKEN MAGGIE</p>
+                    <div class="row">
+                      <p class="mendollor">WET - 69/-</p>
+                      <p class="mendollor">DRY - 79/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <!-- ===================================================Specials================================================================ -->
+
+    <div class="dish" id="specialSection">
+        <div class="container-fluid mb-3 p-0">
+          <div>
+            <h3 class="pt-3">Specials</h3>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-md-4 mt-2">
+              <div class="card">
+                <div class="card-body">
+                  <img src="crunchiees_images/special1.png" class="d-block w-100" />
+                  <p class="pmenfood mt-2">CHICKEN TOPPED CRUNCHIEES</p>
+                  <div class="row">
+                    <p class="mendollor">80/-</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="crunchiees_images/special2.png" class="d-block w-100" />
+                    <p class="pmenfood mt-2">PANEER TOPPED CRUNCHIEES</p>
+                    <div class="row">
+                      <p class="mendollor">70/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="crunchiees_images/special3.png" class="d-block w-100" />
+                    <p class="pmenfood mt-2">VEG TOPPED CRUNCHIEES</p>
+                    <div class="row">
+                      <p class="mendollor">50/-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+    <!-- =========================================contact==================================================== -->
+
+    <div id="contactSection" class="card">
+      <div class="card-body">
+        <div class="row bottom">
+          <div class="pt-5">
+            <h4>Contact Info</h4>
+            <p class="contactp">
+              <i class="fa-solid fa-person"></i> Proprietor -Sai Kiran
+            </p>
+            <p class="contactp">
+              <i class="fa-solid fa-phone"></i>9182191423, 9390248925
+            </p>
+            <p class="contactp">
+              <i class="fa-solid fa-location-dot"></i>Dubbaka,Siddipet
+            </p>
+            <p class="contactp">
+              <i class="fa-brands fa-instagram"></i> dubbaka_crunchies
+            </p>
+          </div>
+          <div class="pt-5 pb-5">
+            <iframe
+              class="location"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3790.780081781133!2d78.663073!3d18.174042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDEwJzI2LjYiTiA3OMKwMzknNDcuMSJF!5e0!3m2!1sen!2sin!4v1744360471907!5m2!1sen!2sin"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div>
+          <p class="copy">
+            <span style="color: rgb(1, 1, 47)">@ By</span>,
+            <span style="color: green">Anusha Reddy</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================Carousel link=============================================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

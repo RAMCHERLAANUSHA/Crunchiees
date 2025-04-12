@@ -1,0 +1,299 @@
+.navbar{
+    box-shadow: 6px 6px 13px #fff,
+                6px 6px 13px #0c2a2d;
+}
+
+.navbar-toggler{
+    font-size: 20px !important;
+    border: none !important;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+.item{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.1s ease;
+    margin-right: 20px;
+}
+.item:hover{
+    background-color: #0c2a2d;
+    border-radius: 5%;
+}
+.item:hover * {
+    color: white !important;
+}
+.phome{
+    margin-top: 20%;
+    margin-left: 30%;  
+}
+.phome1{
+    font-size: 25px;
+    color: green;
+}
+.phome2{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: -18px;
+    color: rgb(1, 1, 47);
+}
+.phome3{
+    font-size: 20px;
+    margin-top: -14px;
+    font-weight: 600;
+    color: rgb(1, 1, 47);
+}
+.qimage{
+    border-radius: 60%; 
+    width: 400px; 
+    height: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.hcon{
+    color: green;
+}
+.dish{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+h3{
+    color: rgb(1, 1, 47);
+}
+.dishimg{
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.botdiv{
+    display: flex;
+    visibility: hidden;
+}
+.botimgl{
+    border: none;
+    border-radius: 50%;
+    text-align: start;
+    align-items: start;
+    height: 30px;
+    width: 30px;
+}
+.botimgl:hover{
+    background: green;
+}
+.botimgr{
+    border: none;
+    border-radius: 50%;
+    text-align: end;
+    height: 30px;
+    width: 30px;
+    text-align: end;
+    margin-left: 77%;
+}
+.botimgr:hover{
+    background: green;
+}
+.card:hover .botdiv{
+   visibility: visible;
+}
+.about{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.abtimg{
+    height: 380px;
+    width: 380px;
+    border-radius: 10%;
+}
+.aboutp{
+    text-align: justify;
+    font-weight: 600;
+    margin-right: 15%;
+}
+.abth2{
+    font-weight: 900;
+    text-align: left;
+    margin-top: 10%;
+    font-size: 40px;
+    color: rgb(1, 1, 47);
+}
+.abtbtn{
+    border: 0.5px solid black;
+    font-weight: 600;
+    padding: 3%;
+    padding-right:3%;
+    padding-left: 3%;
+    height: 40px;
+    width: 160px;
+}
+.menuimg{
+    height: 120px;
+    width: 500px;
+}
+.pmenfood{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: -5%;
+}
+.pmen{
+    text-align: start;
+    font-weight: 500;
+    margin-top: -2%;
+}
+.mendollor{
+    font-size: 14px;
+    font-weight: 600;
+    color: green;
+    text-align: center;
+    margin-top: -4%;
+}
+.menuimg{
+    width: 220px;
+    height: 180px;
+}
+h4{
+    color: rgb(1, 1, 47);
+}
+.contactp{
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(1, 1, 47);
+}
+.contactp:hover{
+    text-decoration: underline;
+}
+.copy{
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+}
+.location{
+    width: 80%;
+    height: 250px;
+}
+.pcrunchiees{
+    border: 0;
+    margin: 0;
+    font-weight: 700;
+}
+.panipuri{
+    background-color: transparent !important;
+    border: none !important;
+}
+.col-md-custome{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.card-title {
+    font-weight: 500;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+.pani{
+    background-color: transparent !important;
+    border: none !important;
+}
+#panipuriSection{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pfood{
+    height: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: -5%;
+}
+.d-block{
+    border-radius: 50% !important;
+}
+.flavour{
+    font-weight: 500;
+    color: green;
+}
+@media screen and (max-width:600px) {
+    .qimage{
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .phome2{
+        font-size: 30px;
+    }
+    .phome1{
+        font-size: 20px;
+    }
+    .abtimg{
+        height: 270px;
+        width: 270px;
+    }
+    .aboutp{
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+    .mendollor{
+        margin-left: -8px;
+    }
+    h4{
+        margin-left: 30px;
+    }
+    .contactp{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .mendollor{
+        margin-left: -15%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .phome2{
+        font-size: 40px;
+    }
+    .qimage{
+        width: 300px;
+        height: 300px;
+    }
+    .abtimg{
+        height: 300px;
+        width: 300px;
+    }
+    .abth2{
+        font-size: 25px;
+        margin-top: 2%;
+        margin: 0 auto;
+    }
+    .aboutp{
+        font-size: 12px;
+    }
+    .pmen{
+        font-size: 15px;
+    }
+    .mendollor{
+        font-size: 14px;
+    }
+    h4{
+        margin-bottom: -10%;
+    }
+    .contactp{
+        font-size: 14px;
+    }
+}
